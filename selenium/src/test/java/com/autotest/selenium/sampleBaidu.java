@@ -53,7 +53,7 @@ public class sampleBaidu {
       
       String current_title = driver.getTitle();
       System.out.println(current_title);
-      String expected_title = "TEST";
+      String expected_title = "DsWeb";
       
       assert expected_title == current_title;
      
