@@ -21,16 +21,16 @@ public class sampleBaidu {
   @Test
   public void login() throws InterruptedException {
 	  //System.out.println("Test OK.");
-	  //WebDriver driver = null;
-	  //try {
-		//  driver = new RemoteWebDriver(new URL("http://9.112.68.86:4444/wd/hub/"),new ChromeOptions());
-		//  } catch (MalformedURLException e) {
-		// TODO Auto-generated catch block
-		//	  e.printStackTrace();
-		//	  }
-	  System.setProperty("webdriver.gecko.driver","/Users/macgouyuling/Documents/Usual/DevOps Folder/Test/resource/geckodriver");
-	  System.setProperty("webdriver.firefox.bin","/Applications/IBM Firefox.app/Contents/MacOS/firefox-bin");
-	  WebDriver driver = new FirefoxDriver();
+	  WebDriver driver = null;
+	  try {
+		  driver = new RemoteWebDriver(new URL("http://9.112.68.134:4444/wd/hub/"),new ChromeOptions());
+		  } catch (MalformedURLException e) {
+		 //TODO Auto-generated catch block
+			  e.printStackTrace();
+			  }
+	  //System.setProperty("webdriver.gecko.driver","/Users/macgouyuling/Documents/Usual/DevOps Folder/Test/resource/geckodriver");
+	 // System.setProperty("webdriver.firefox.bin","/Applications/IBM Firefox.app/Contents/MacOS/firefox-bin");
+	  //WebDriver driver = new FirefoxDriver();
 	  System.out.println("Start Driver!");
 	  //driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS); // 页面加载时间
 	  //driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS); // 隐式等待
