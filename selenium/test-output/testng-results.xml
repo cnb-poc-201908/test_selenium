@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Test Passed]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="11316" started-at="2019-08-01T06:26:14Z" finished-at="2019-08-01T06:26:26Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="11316" started-at="2019-08-01T06:26:14Z" finished-at="2019-08-01T06:26:26Z">
+      <class name="com.autotest.selenium.sampleBaidu">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.autotest.selenium.sampleBaidu@35d176f7]" name="beforeTest" is-config="true" duration-ms="11" started-at="2019-08-01T14:26:14Z" finished-at="2019-08-01T14:26:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="f()[pri:0, instance:com.autotest.selenium.sampleBaidu@35d176f7]" name="f" duration-ms="11292" started-at="2019-08-01T14:26:14Z" finished-at="2019-08-01T14:26:26Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.autotest.selenium.sampleBaidu@35d176f7]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-08-01T14:26:26Z" finished-at="2019-08-01T14:26:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.autotest.selenium.sampleBaidu -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
