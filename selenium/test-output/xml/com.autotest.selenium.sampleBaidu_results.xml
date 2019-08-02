@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="19.829">
+           time="11.458">
   <properties />
   
   
-            <testcase name="login" time="19.829" classname="com.autotest.selenium.sampleBaidu" />
+            <testcase name="login" time="11.458" classname="com.autotest.selenium.sampleBaidu" />
       
 </testsuite>

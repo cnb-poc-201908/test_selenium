@@ -23,7 +23,7 @@ public class sampleBaidu {
 	  //System.out.println("Test OK.");
 	  WebDriver driver = null;
 	  try {
-		  driver = new RemoteWebDriver(new URL("http://9.112.68.134:4444/wd/hub/"),new ChromeOptions());
+		  driver = new RemoteWebDriver(new URL("http://bmwpoc.cdkapps.cn:30444/wd/hub/"),new ChromeOptions());
 		  } catch (MalformedURLException e) {
 		 //TODO Auto-generated catch block
 			  e.printStackTrace();
