@@ -51,9 +51,16 @@ public class sampleBaidu {
       Thread.sleep(50);
       btn_signin.click();
       
+      String current_title = driver.getTitle();
+      System.out.println(current_title);
+      String expected_title = "TEST";
+      
+      assert expected_title == current_title;
+     
+      
       driver.quit();
       
-      Reporter.log("Test Passed");
+      //Reporter.log("Test Passed");
   }
   @BeforeTest
   public void beforeTest() {
