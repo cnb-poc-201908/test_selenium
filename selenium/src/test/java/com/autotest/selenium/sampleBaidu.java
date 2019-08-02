@@ -55,7 +55,7 @@ public class sampleBaidu {
       System.out.println(current_title);
       String expected_title = "DsWeb";
       
-      assert expected_title == current_title;
+      assert expected_title.equals(current_title);
      
       
       driver.quit();
